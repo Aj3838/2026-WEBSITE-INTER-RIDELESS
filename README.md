@@ -1,47 +1,64 @@
 <p align="center">
-  <img src="logo-readme.svg" alt="Rideless" width="360">
+  <img src="logo-readme.svg" alt="Rideless" width="400">
+</p>
+<br>
+<p align="center">
+  <img src="./assets/preview.png" alt="screenshot Rideless" width="700">
+</p>
+<p align="center">
+  Economize mais. Escolha melhor.
 </p>
 
-<h3 align="center">Compare antes de pedir. Pague menos na corrida.</h3>
+# Rideless
 
-<br>
+### Projeto Interdisciplinar
 
-## O que é
+Uma proposta de solução digital que ajuda os usuários a comparar preços de deslocamento, considerando distância, economia e áreas de risco.
 
-O Rideless é um app que compara os preços de **Uber, 99 e InDrive**, mostra a melhor corrida e avisa quando o embarque fica em **área de risco**.
+O **Rideless** busca facilitar a escolha de trajetos, mostrando como pequenas mudanças no percurso podem gerar economia e contribuir para deslocamentos mais conscientes.
 
-Este repositório é o **site de apresentação** do app.
+<p align="center">
+  <a href="#">
+    <strong>Acessar a Landing Page do Rideless</strong>
+  </a>
+</p>
 
-## Como ver o site
+## Sobre
 
-Abra o arquivo `index.html` no navegador. Não precisa instalar nada.
+O Rideless apresenta uma proposta de comparação de preços e trajetos por meio de:
 
-## O que tem aqui
+* Comparação de preços
+* Estimativa de economia
+* Consideração de áreas de risco
+* Análise de distância percorrida
+* Interface simples e intuitiva
 
-```
-index.html     o conteúdo do site
-css/style.css  as cores e os tamanhos
-js/main.js     o vídeo, o menu e os botões
-assets/        imagens, logo e vídeo
-```
+A proposta é ajudar o usuário a encontrar alternativas mais econômicas, considerando também a segurança durante o deslocamento.
 
-## Como mudar as coisas
+## Tecnologias
 
-- **Textos:** edite o `index.html`
-- **Cores e tamanhos:** edite o `css/style.css`
-- **Imagens e vídeo:** coloque os arquivos na pasta `assets` com o nome certo (veja `assets/LEIA-ME.txt`)
-- **Links das lojas:** no `index.html`, troque o `href="#"` dos botões de download
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="48" alt="HTML5">
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="48" alt="CSS3">
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="48" alt="JavaScript">
+</p>
 
-## Como colocar no ar
+<p align="center">
+  HTML5 &nbsp;·&nbsp; CSS3 &nbsp;·&nbsp; JavaScript
+</p>
 
-1. Envie a pasta para um repositório no GitHub
-2. Vá em **Settings > Pages**
-3. Escolha a branch `main` e a pasta `/ (root)`
 
-## Feito com
+## Objetivo
 
-HTML, CSS e JavaScript, sem bibliotecas.
+Desenvolver uma solução digital que facilite a comparação de preços e ajude os usuários a identificar oportunidades de economia, levando em consideração a distância e as áreas de risco.
 
----
 
-Projeto escolar da ETEC de Taboão da Serra, 2026.
+## Equipe
+
+
+**Agno S.**,  
+**Bruno G.**,  
+**Heloísa M.** e  
+**Gustavo M.**
