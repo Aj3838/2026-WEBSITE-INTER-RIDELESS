@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo-readme.svg" alt="Rideless" width="360">
+  <img src="logo-readme.svg" alt="Rideless" width="360">
 </p>
 
 <h3 align="center">Compare antes de pedir. Pague menos na corrida.</h3>
