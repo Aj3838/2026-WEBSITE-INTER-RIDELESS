@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#000000">
+<meta name="description" content="O Rideless compara Uber, 99 e InDrive, recomenda a melhor corrida e avisa sobre áreas de risco. Baixe o app.">
+<title>Rideless</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+<header class="nav glass" id="nav">
+  <a class="brand" href="#inicio" aria-label="Rideless, página inicial">
+    <figure class="logo-slot" data-label="logo" data-file="assets/logo.svg"><img src="assets/logo.svg" alt=""></figure>
+    <span class="brand-name"></span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#recursos">Recursos</a></li>
+    <li><a href="#vantagens">Vantagens</a></li>
+    <li><a href="#equipe">Sobre</a></li>
+    <li><a href="#duvidas">Dúvidas</a></li>
+  </ul>
+  <div class="nav-right">
+    <a class="btn btn-solid btn-sm" href="#baixar">Baixar o app</a>
+    <button class="menu-btn" id="menuBtn" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="menuPanel"><span></span><span></span></button>
+  </div>
+  <nav class="menu-panel glass" id="menuPanel" aria-label="Menu" hidden>
+    <a href="#recursos">Recursos</a>
+    <a href="#vantagens">Vantagens</a>
+    <a href="#equipe">Sobre</a>
+    <a href="#duvidas">Dúvidas</a>
+  </nav>
+</header>
+
+<main>
+
+<div class="hero" id="inicio">
+  <!-- colocar vieo nao esquece -->
+  <video id="adVideo" autoplay muted loop playsinline preload="auto" poster="assets/rideless-poster.jpg" aria-label="Vídeo de apresentação do Rideless">
+    <source src="assets/rideless-ad.mp4" type="video/mp4">
+  </video>
+  <div class="fallback" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="hero-in">
+      <h1>Compare antes de pedir. Pague menos na corrida.</h1>
+      <p class="lead">O Rideless compara Uber, 99 e InDrive, recomenda a melhor opção e avisa quando o embarque fica em área de risco.</p>
+      <div class="hero-actions">
+        <a class="btn btn-solid" href="#baixar">Baixar o app</a>
+        <button class="btn btn-glass glass" id="soundBtn" type="button" aria-pressed="false">Ativar som</button>
+      </div>
+      <p class="vid-note">O vídeo de apresentação entra aqui: salve o arquivo em assets/rideless-ad.mp4.</p>
+    </div>
+  </div>
+</div>
+
+
+<div class="wrap">
+  <ul class="trust glass">
+    <li><strong>3 apps</strong><span>Uber, 99 e InDrive comparados</span></li>
+    <li><strong>Preço + distância</strong><span>para recomendar a melhor corrida</span></li>
+    <li><strong>Áreas de risco</strong><span>destacadas antes de você pedir</span></li>
+  </ul>
+</div>
+
+<section id="recursos">
+  <div class="wrap">
+
+    <article class="feature">
+      <div class="feature-copy">
+        <h2>Veja qual app está mais barato agora.</h2>
+        <p>Informe o trajeto e o Rideless mostra o valor estimado de Uber, 99 e InDrive lado a lado, com a melhor opção em destaque. Sem abrir app por app.</p>
+        <a class="btn btn-glass glass btn-sm" href="#baixar">Baixar o app</a>
+      </div>
+      <div class="feature-media">
+        <figure class="shot device" data-label="Tela: comparação de preços" data-file="assets/app-comparacao.png">
+          <img src="assets/Frame 1.png" alt="Tela do Rideless comparando os preços de Uber, 99 e InDrive" loading="lazy">
+        </figure>
+      </div>
+    </article>
+
+    <article class="feature rev">
+      <div class="feature-copy">
+        <h2>Andar alguns metros pode valer dinheiro.</h2>
+        <p>Se caminhar até outro ponto deixa a corrida mais barata, o app calcula e diz quanto você economiza, em reais, para você decidir se compensa.</p>
+        <a class="btn btn-glass glass btn-sm" href="#baixar">Baixar o app</a>
+      </div>
+      <div class="feature-media">
+        <figure class="shot device" data-label="Tela: economia andando" data-file="assets/app-economia.png">
+          <img src="assets/Frame 1.png" alt="Tela do Rideless mostrando quanto você economiza se andar até um ponto de embarque" loading="lazy">
+        </figure>
+      </div>
+    </article>
+
+    <article class="feature">
+      <div class="feature-copy">
+        <h2>Barato, mas sem entrar em área de risco.</h2>
+        <p>As áreas de risco aparecem no mapa antes de você confirmar a corrida, para escolher o embarque com mais informação.</p>
+        <a class="btn btn-glass glass btn-sm" href="#baixar">Baixar o app</a>
+      </div>
+      <div class="feature-media">
+        <figure class="shot device" data-label="Tela: áreas de risco" data-file="assets/app-risco.png">
+          <img src="assets/Frame 1.png" alt="Tela do Rideless com áreas de risco destacadas no mapa" loading="lazy">
+        </figure>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+
+<section id="vantagens">
+  <div class="wrap why">
+    <div class="why-media">
+      <figure class="shot wide bare" data-label="Imagem: por que comparar" data-file="assets/por-que-comparar.png">
+        <img src="assets/por-que-comparar.png" alt="Celular com o app aberto" loading="lazy">
+      </figure>
+      <div class="float-cards" role="img" aria-label="Exemplo ilustrativo: Uber R$ 27,40, 99 R$ 24,90 e InDrive R$ 21,00, a melhor opção">
+        <div class="fcard"><span class="dot">U</span><div><b>Uber</b><small>Mais cara neste trajeto</small></div><em>R$ 27,40</em></div>
+        <div class="fcard"><span class="dot">99</span><div><b>99</b><small>Intermediária</small></div><em>R$ 24,90</em></div>
+        <div class="fcard best"><span class="dot">I</span><div><b>InDrive</b><small>Melhor opção</small></div><em>R$ 21,00</em></div>
+      </div>
+      <p class="cap">Valores ilustrativos.</p>
+    </div>
+    <div class="why-copy">
+      <h2>Por que comparar antes de pedir</h2>
+      <p class="why-lead">O mesmo trajeto não custa o mesmo em todo app, e o preço muda conforme o clima e a região.</p>
+      <ul class="why-list">
+        <li><span class="ico"></span><div><h3>Os apps não cobram igual</h3><p>Nas simulações, um aplicativo ficou sempre mais caro que o outro no mesmo trajeto.</p></div></li>
+        <li><span class="ico"></span><div><h3>Clima e região mudam o valor</h3><p>Chuva e áreas de risco ou nobres encarecem a corrida, além da distância.</p></div></li>
+        <li><span class="ico"></span><div><h3>Economia em reais</h3><p>Você vê quanto poupa, inclusive andando até outro ponto de embarque.</p></div></li>
+        <li><span class="ico"></span><div><h3>Mais segurança no embarque</h3><p>Trechos de risco ficam destacados no mapa antes de você pedir.</p></div></li>
+      </ul>
+      <p class="note">Baseado em simulações de corridas e em uma pesquisa com alunos da ETEC de Taboão da Serra.</p>
+      <a class="btn btn-solid" href="#baixar">Baixar o app</a>
+    </div>
+  </div>
+</section>
+
+<section id="equipe">
+  <div class="wrap">
+    <div class="proposal">
+      <span class="eyebrow">Nossa proposta</span>
+      <p class="proposal-text">Corrida de aplicativo não deveria ser um palpite. <span>O Rideless coloca preço, distância e segurança lado a lado para você decidir com clareza.</span></p>
+      
+    </div>
+    <div class="sec-head center">
+      <h2>Quem faz o Rideless</h2>
+      <p>Um projeto criado por Estudantes...</p>
+    </div>
+    <div class="team">
+      <article class="member"><figure class="shot avatar" data-label="Foto" data-file="assets/equipe-01.jpg"><img src="assets/equipe-01.jpg" alt="Foto do integrante 1" loading="lazy"></figure><h3>Agno S.</h3><p>Função</p></article>
+      <article class="member"><figure class="shot avatar" data-label="Foto" data-file="assets/equipe-02.jpg"><img src="assets/equipe-02.jpg" alt="Foto do integrante 2" loading="lazy"></figure><h3>Bruno G.</h3><p>Função</p></article>
+      <article class="member"><figure class="shot avatar" data-label="Foto" data-file="assets/equipe-03.jpg"><img src="assets/equipe-03.jpg" alt="Foto do integrante 3" loading="lazy"></figure><h3>Gustavo M.</h3><p>Função</p></article>
+      <article class="member"><figure class="shot avatar" data-label="Foto" data-file="assets/equipe-04.jpg"><img src="assets/equipe-04.jpg" alt="Foto do integrante 4" loading="lazy"></figure><h3>Heloísa M.</h3><p>Função</p></article>
+    </div>
+  </div>
+</section>
+
+
+<section id="duvidas">
+  <div class="wrap faq-wrap">
+    <div class="faq-head">
+      <h2>Dúvidas? A gente responde</h2>
+      <p>As perguntas mais comuns sobre o Rideless.</p>
+    </div>
+    <div class="faq">
+      <details><summary>Quais apps o Rideless compara?</summary><p>Uber, 99 e InDrive.</p></details>
+      <details><summary>Como ele escolhe a melhor corrida?</summary><p>Considerando preço e distância do trajeto, e mostrando quanto você economiza se andar até um ponto de embarque melhor.</p></details>
+      <details><summary>O que são as áreas de risco?</summary><p>Trechos do mapa com maior risco, destacados para você decidir o embarque com mais informação.</p></details>
+      <details><summary>Funciona em qualquer cidade?</summary><p>Os testes foram feitos em uma única região. Em outras cidades os preços e as áreas de risco podem variar.</p></details>
+    </div>
+  </div>
+</section>
+
+
+<section id="baixar" class="cta-sec">
+  <div class="wrap">
+    <div class="glass download">
+      <div class="download-copy">
+        <h2>Pronto para pagar menos na próxima corrida?</h2>
+        <p>Baixe o Rideless e compare antes de pedir.</p>
+        <div class="stores">
+          
+          <a class="btn btn-solid" href="#" id="linkAppStore">Baixar na App Store</a>
+          <a class="btn btn-glass glass" href="#" id="linkPlayStore">Baixar no Google Play</a>
+        </div>
+        <figure class="shot qr" data-label="QR code do app" data-file="assets/qr-app.png">
+          <img src="assets/qr-app.png" alt="QR code para baixar o Rideless" loading="lazy">
+        </figure>
+      </div>
+      <div class="download-media">
+        <figure class="shot" data-label="Tela do app" data-file="assets/app-download.png">
+          <img src="assets/Frame 1.png" alt="Tela do app Rideless" loading="lazy">
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <div class="foot-brand">
+      <a class="brand" href="#inicio" aria-label="Rideless">
+        <figure class="logo-slot" data-label="logo" data-file="assets/logo.svg"><img src="assets/logo.svg" alt=""></figure>
+        <span class="brand-name">Rideless</span>
+      </a>
+      <p>Seu assistente para comparar corridas de aplicativo.</p>
+      <p class="small">Projeto desenvolvido na ETEC de Taboão da Serra. 2026.</p>
+    </div>
+    <nav class="foot-nav" aria-label="Rodapé">
+      <a href="#recursos">Recursos</a><a href="#vantagens">Vantagens</a><a href="#equipe">Sobre</a><a href="#duvidas">Dúvidas</a>
+    </nav>
+    <div class="foot-stores">
+      <a class="btn btn-glass glass btn-sm" href="#" data-store="ios">App Store</a>
+      <a class="btn btn-glass glass btn-sm" href="#" data-store="android">Google Play</a>
+    </div>
+  </div>
+</footer>
+
+
+<a class="sticky-cta btn btn-solid" id="stickyCta" href="#baixar">Baixar o app</a>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>
