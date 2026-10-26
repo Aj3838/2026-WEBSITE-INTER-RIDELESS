@@ -2,12 +2,6 @@
   <img src="logo-readme.svg" alt="Rideless" width="400">
 </p>
 <br>
-<p align="center">
-  <img src="./assets/preview.png" alt="screenshot Rideless" width="700">
-</p>
-<p align="center">
-  Economize mais. Escolha melhor.
-</p>
 
 # Rideless
 
