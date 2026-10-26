@@ -73,7 +73,7 @@ img{max-width:100%}
 .hero.no-video video{display:none}
 .hero::after{content:"";position:absolute;inset:0;z-index:-2;
   background:linear-gradient(180deg,rgba(0,0,0,.55) 0%,rgba(0,0,0,.2) 35%,rgba(0,0,0,.78) 80%,#000 100%)}
-.hero-in{padding:130px 0 64px;max-width:620px;animation:rise .9s cubic-bezier(.2,.7,.2,1) both}
+.hero-in{padding:110px 0 64px;max-width:620px;animation:rise .9s cubic-bezier(.2,.7,.2,1) both}
 .hero h1{font-size:clamp(30px,4.6vw,52px);font-weight:600;letter-spacing:-.025em;line-height:1.12}
 .hero p.lead{margin-top:18px;font-size:clamp(16px,1.8vw,19px);color:#d8d8dc;max-width:520px}
 .hero-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px}
